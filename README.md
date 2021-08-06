@@ -17,7 +17,7 @@ Remove MongoDB databases and log files.
 or by using one command  
 `sudo rm -r /var/log/mongodb /var/lib/mongodb`
 
-* extra commands to make sure everything is uninstalled.  
+* Extra commands to make sure everything is uninstalled.  
 `sudo apt-get purge mongodb mongodb-clients mongodb-server mongodb-dev`  
 `sudo apt-get purge mongodb-10gen`  
 `sudo apt-get autoremove`  
@@ -78,5 +78,5 @@ Try to do a repair by following these steps:
 4. Start mongo console.  
 `mongo`
 
-if that did not works, you probably faced a problem during the installation.  
+If that did not works, you probably faced a problem during the installation.  
 try to uninstall and install again.
