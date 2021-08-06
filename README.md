@@ -17,7 +17,7 @@ Remove MongoDB databases and log files
 or using one command
 `sudo rm -r /var/log/mongodb /var/lib/mongodb`
 
-* extra command to uninstall
+* extra commands to uninstall
 `sudo apt-get purge mongodb mongodb-clients mongodb-server mongodb-dev`
 `sudo apt-get purge mongodb-10gen`
 `sudo apt-get autoremove`
