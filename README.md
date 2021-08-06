@@ -51,7 +51,7 @@ if you did the steps in the [Microsoft’s directions](https://docs.microsoft.co
 6. Start mongo console.  
 `mongo`
 
-### start MongoDB using the operating system's built-in init system
+### Start MongoDB using the operating system's built-in init system
 
 In the example above we ran MongoDB directly. Other tutorials may start MongoDB using the operating system's built-in init system. You might see the command sudo systemctl status mongodb used in tutorials or articles. Currently WSL does not have support for systemd (a service management system in Linux).
 
