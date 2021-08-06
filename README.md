@@ -14,7 +14,7 @@ Remove any MongoDB packages that you had previously installed.
 Remove MongoDB databases and log files  
 `sudo rm -r /var/log/mongodb`  
 `sudo rm -r /var/lib/mongodb`  
-or using one command  
+or by using one command  
 `sudo rm -r /var/log/mongodb /var/lib/mongodb`
 
 * extra commands to uninstall.  
