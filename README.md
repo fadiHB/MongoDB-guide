@@ -2,8 +2,8 @@
 
 ## Uninstall the MongoDB
 
-1. Stop MongoDB.
-Stop the mongod process by issuing the following command:  
+1. Stop MongoDB.  
+Stop the mongod process by issuing the following command.  
 `sudo service mongodb stop`
 
 2. Remove Packages.  
