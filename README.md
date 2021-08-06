@@ -6,12 +6,12 @@
 Stop the mongod process by issuing the following command:  
 `sudo service mongodb stop`
 
-2. Remove Packages.
+2. Remove Packages.  
 Remove any MongoDB packages that you had previously installed.  
 `sudo apt-get purge mongodb-org*`
 
-3. Remove Data Directories.
-Remove MongoDB databases and log files  
+3. Remove Data Directories.  
+Remove MongoDB databases and log files.  
 `sudo rm -r /var/log/mongodb`  
 `sudo rm -r /var/lib/mongodb`  
 or by using one command  
