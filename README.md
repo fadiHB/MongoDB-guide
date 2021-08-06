@@ -63,20 +63,23 @@ You shouldn't notice a difference, but if a tutorial recommends using sudo syste
 
 ### Repair
 
-In some cases, you may have a problem while starting the service.  
+* In some cases, you may have a problem while starting the service.  
 Try to do a repair by following these steps:
 
-1. Remove lock file.  
-`sudo rm /var/lib/mongodb/mongod.lock`
+  1. Remove lock file.  
+    `sudo rm /var/lib/mongodb/mongod.lock`
 
-2. Repair mongodb.  
-`mongod --repair`
+  2. Repair mongodb.  
+    `mongod --repair`
 
-3. Start mongodb.  
-`sudo service mongodb start`
+  3. Start mongodb.  
+    `sudo service mongodb start`
 
-4. Start mongo console.  
-`mongo`
+  4. Start mongo console.  
+    `mongo`
+
+* If you have error " Unit mongodb.service is masked "  
+run this: `sudo systemctl unmask mongodb` or `sudo /etc/inid.d/mongodb unmask`
 
 If that did not works, you probably faced a problem during the installation.  
 try to uninstall and install again.
