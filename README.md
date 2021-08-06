@@ -61,8 +61,8 @@ sudo systemctl status mongodb, for WSL would be sudo /etc/inid.d/mongodb status 
 
 ### Repair
 
-in some cases you may have a problem while startingt the service
-try to do a repai by Following the steps:
+in some cases, you may have a problem while starting the service
+try to do a repair by Following the steps:
 
 1. Remove lock file
 `sudo rm /var/lib/mongodb/mongod.lock`
