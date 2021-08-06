@@ -62,8 +62,8 @@ You shouldn't notice a difference, but if a tutorial recommends using sudo syste
 
 ### Repair
 
-in some cases, you may have a problem while starting the service
-try to do a repair by Following the steps:
+In some cases, you may have a problem while starting the service.  
+Try to do a repair by following these steps:
 
 1. Remove lock file.  
 `sudo rm /var/lib/mongodb/mongod.lock`
