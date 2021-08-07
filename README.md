@@ -88,7 +88,7 @@ in this cases, you shoud do the following:
   `sudo service mongodb start`
 
 * If you have error " Unit mongodb.service is masked ":    
-  * run this: `sudo systemctl unmask mongodb` or `sudo /etc/inid.d/mongodb unmask`
+  * run this: `sudo systemctl unmask mongodb` or `sudo /etc/init.d/mongodb unmask`
 
 If that did not works, you probably faced a problem during the installation.  
 try to uninstall and install again.
