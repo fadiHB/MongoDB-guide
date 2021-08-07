@@ -56,10 +56,10 @@ remove this directory by:
 
 In the example above we ran MongoDB directly. Other tutorials may start MongoDB using the operating system's built-in init system. You might see the command `sudo systemctl status mongodb` used in tutorials or articles. Currently WSL does not have support for systemd (a service management system in Linux).
 
-You shouldn't notice a difference, but if a tutorial recommends using sudo systemctl, instead use: sudo /etc/init.d/.
+You shouldn't notice a difference, but if a tutorial recommends using sudo systemctl, instead use: `sudo /etc/init.d/`.
 
 * For example:  
-`sudo systemctl status mongodb`, for WSL would be `sudo /etc/inid.d/mongodb status` ...or you can also use `sudo service mongodb status`.
+`sudo systemctl status mongodb`, for WSL would be `sudo /etc/init.d/mongodb status` ...or you can also use `sudo service mongodb status`.
 
 ### Repair
 
