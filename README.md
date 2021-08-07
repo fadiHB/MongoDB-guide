@@ -84,7 +84,9 @@ in this case, you shoud do the following:
   `mkdir -p data/db`
   2. Run a Mongo instance:   
   `sudo mongod --dbpath ~/data/db`
-  3. Start mongodb:    
+  3. Repair mongodb.  
+    `mongod --repair`
+  4. Start mongodb:    
   `sudo service mongodb start`
 
 * If you have error " Unit mongodb.service is masked ":    
