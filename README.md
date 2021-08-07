@@ -79,7 +79,7 @@ Try to do a repair by following these steps:
     `mongo`
     
 * When you do a repair and see this error " exception in initAndListen: NonExistentPath: Data directory /data/db not found "
-in this cases, you shoud do the following:
+in this case, you shoud do the following:
   1. Make a directory to store data:   
   `mkdir -p data/db`
   2. Run a Mongo instance:   
