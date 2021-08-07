@@ -1,4 +1,4 @@
-# MongoDB for WSL2
+# MongoDB for WSL2 | Ubuntu
 
 ## Uninstall the MongoDB
 
