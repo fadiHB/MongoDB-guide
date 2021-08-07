@@ -1,4 +1,4 @@
-# MongoDB
+# MongoDB for WSL2
 
 ## Uninstall the MongoDB
 
