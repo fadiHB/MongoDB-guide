@@ -77,6 +77,15 @@ Try to do a repair by following these steps:
 
   4. Start mongo console.  
     `mongo`
+    
+* When you do a repair and see this error " exception in initAndListen: NonExistentPath: Data directory /data/db not found "
+in this cases, you shoud do the following:
+  1. Make a directory to store data:   
+  `mkdir -p data/db`
+  2. Run a Mongo instance:   
+  `sudo mongod --dbpath ~/data/db`
+  3. Start mongodb:    
+  `sudo service mongodb start`
 
 * If you have error " Unit mongodb.service is masked "  
 run this: `sudo systemctl unmask mongodb` or `sudo /etc/inid.d/mongodb unmask`
