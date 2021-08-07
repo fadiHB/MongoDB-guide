@@ -29,7 +29,7 @@ This should also remove your config from /etc/mongodb.conf.
 ### Note
 
 if you did the steps in the [Microsoft’s directions](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb), you may have created a directory named "data".  
-remove this directory by:
+remove this directory for now by:
 `rm -rf data`
 
 ## install MongoDB in WSL
