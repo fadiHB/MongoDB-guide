@@ -43,14 +43,14 @@ remove this directory for now by:
 3. Confirm installation and get the version number.  
 `mongo --version`
 
-4. Check the status.  
-`sudo service mongodb status`
-
-5. Run the server.  
+4. Run the server.  
 `sudo service mongodb start`
 
-6. Start mongo console.  
+5. Start mongo console.  
 `mongo`
+
+* Check the service status.  
+`sudo service mongodb status`
 
 ### Start MongoDB using the operating system's built-in init system
 
