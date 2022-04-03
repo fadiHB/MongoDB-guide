@@ -34,8 +34,9 @@ remove this directory for now by:
 
 ## install MongoDB in WSL
 
-1. Update your Ubuntu packages.  
-`sudo apt-get update`
+1. Update & upgrade your Ubuntu packages.  
+`sudo apt-get update` // Fetches the list of available updates  
+`sudo apt-get upgrade` // Strictly upgrades the current packages
 
 2. Install MongoDB packages.  
 `sudo apt-get install mongodb`
